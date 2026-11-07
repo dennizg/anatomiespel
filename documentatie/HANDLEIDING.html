@@ -1,0 +1,163 @@
+<!doctype html><html lang="nl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Proefspelen · Anatomie op jouw tempo</title>
+<style>:root{font-family:system-ui,Segoe UI,sans-serif;color:#233c3a;background:#edf3f0;font-size:17px;line-height:1.65}body{margin:0}header{background:#173e38;color:#faf9ef;padding:42px max(24px,calc((100vw - 960px)/2))}header p{color:#c9dfd5}h1{font-size:clamp(28px,4vw,46px);line-height:1.2;margin:.4em 0}nav{display:flex;flex-wrap:wrap;gap:12px}nav a{background:#e2f0e8;color:#173e38;padding:8px 16px;border-radius:7px;text-decoration:none}main{max-width:960px;margin:32px auto;padding:0 20px}article{background:#fffef7;padding:clamp(20px,4vw,46px);margin-bottom:28px;border:1px solid #d4dfd7;border-radius:12px;scroll-margin-top:16px}h2{font-size:30px;line-height:1.25}h3{margin-top:2em;font-size:23px}h4{font-size:19px}a{color:#125f61}code{overflow-wrap:anywhere;background:#eaf0ed;padding:2px 5px;border-radius:3px}table{border-collapse:collapse;width:100%;font-size:.92em}td{border:1px solid #c6d6cc;padding:10px;vertical-align:top}tr:first-child{font-weight:700;background:#e6eee7}li{margin:.6em 0}footer{padding:10px 24px 36px;text-align:center}@media print{:root{font-size:10pt;background:white}header{padding:0;color:#173e38;background:white}header p{color:#233c3a}nav{display:none}main{margin:0;padding:0;max-width:none}article{border:0;border-radius:0;padding:0;break-before:page}h2,h3,h4{break-after:avoid}tr,li{break-inside:avoid}a{color:inherit}footer{display:none}@page{size:A4;margin:18mm}</style>
+<header><p>PROEFRONDE · VERSIE 1.3.2 · 7 NOVEMBER 2026</p><h1>Anatomie op jouw tempo</h1><p>Installeren, spelen en je ervaringen teruggeven.</p><nav><a href="#start-hier">Snel beginnen</a><a href="#installatie">Installeren</a><a href="#proefspelen">Proefspelen</a><a href="#testverslag-invullen">Testverslag</a></nav></header><main><article id="start-hier"><h2>Welkom, proefspeler!</h2>
+<p><strong>Overleven in het anatomie lokaal · spelversie 1.3.2 · proefronde · 7 november 2026</strong></p>
+<p>Je helpt ons de installatie, bediening, uitleg en anatomische opgaven te verbeteren. Je test het spel; dit is geen examen. Onduidelijkheid, een fout of een vastloper is juist waardevolle feedback.</p>
+<p><strong>De vragen zijn nog niet gevalideerd door anatomie-experts.</strong> We nodigen anatomie-experts uit om mee te beoordelen. Kom je als expert of speler een onduidelijke of mogelijk onjuiste vraag tegen? Laat het Dennis weten en vermeld de <strong>vraagcode die bij iedere vraag in het spel staat</strong>, de spelversie en je toelichting. Dit kan via het afgesproken contactkanaal of via een openbaar GitHub-issue zonder persoonsgegevens.</p>
+<h3>1. Download het juiste pakket</h3>
+<p>Gebruik de downloadlink van Dennis of de <strong>Releases</strong>-pagina van de officiële GitHub-repository. Open bij versie <strong>v1.3.2</strong> het onderdeel <strong>Assets</strong> en kies:</p>
+<table>
+<tr><td>Jouw computer</td><td>Download</td></tr>
+<tr><td>Windows met Intel- of AMD-processor</td><td><code>DEADLINE-v132-Windows-x64.zip</code></td></tr>
+<tr><td>Windows met ARM-processor, bijvoorbeeld Snapdragon</td><td><code>DEADLINE-v132-Windows-ARM64.zip</code></td></tr>
+<tr><td>Mac met Apple-chip of Intel-processor</td><td><code>DEADLINE-v132-macOS-Universal.zip</code></td></tr>
+</table>
+<p><strong>Source code (zip)</strong> en <strong>Source code (tar.gz)</strong> zijn geen speelbare downloads. Voor Linux, Chromebook, telefoon en tablet is in deze release geen spelpakket beschikbaar. Gebruik een computer met toetsenbord. Na het downloaden werkt het spel offline; Godot of andere ontwikkelsoftware installeren is niet nodig.</p>
+<h3>2. Pak uit en start</h3>
+<p><strong>Windows:</strong> klik met rechts op het ZIP-bestand → <strong>Alles uitpakken</strong>. Open daarna de uitgepakte map en dubbelklik op <strong>DEADLINE.exe</strong>. Start niet vanuit het ZIP-bestand.</p>
+<p><strong>Mac:</strong> dubbelklik op het ZIP-bestand in Finder. Verplaats de uitgepakte spelmap naar een eigen map, bijvoorbeeld Documenten, en open daarin de app <strong>Overleven in het anatomie lokaal</strong>. Houd de meegeleverde bestanden bij elkaar. De eerste start kan door macOS worden geblokkeerd; volg <a href="#installatie">Installeren en starten</a>.</p>
+<p>De Windows-x64-versie is lokaal gestart en bekeken. De ARM64- en Mac-pakketten zijn op structuur gecontroleerd, maar nog niet op zulke apparaten gestart. Vooral jullie installatie-ervaring op die computers helpt ons. De Mac-export is ingesteld op macOS 12 of nieuwer; de praktische compatibiliteit moet nog worden bevestigd.</p>
+<h3>3. Kies hoe je wilt oefenen</h3>
+<p>Op het welkomstscherm staat versie <strong>1.3.2</strong>. Gebruik als spelersnaam een afgesproken testcode of verzonnen naam.</p>
+<ul>
+<li><strong>Rustig oefenen:</strong> dezelfde anatomische vragen en animaties, in rustige kleuren, zonder gevechten en horror. Via <strong>Kies je opgaven</strong> selecteer je onderwerpen en moeilijkheid.</li>
+<li><strong>Speel het horrorverhaal:</strong> een campagne met zombies, bloed, geweld en mogelijk angstaanjagende beelden en geluiden. Deze route heeft een eigen <strong>18+ inhoudswaarschuwing</strong>. Dit is geen officiële PEGI-classificatie. Kies deze route alleen als je 18 jaar of ouder bent en dit zelf wilt.</li>
+</ul>
+<p>Geen zin in zombies? Kies gerust Rustig oefenen. Voor deze proef hoef je de horrorroute niet te spelen. Je kunt altijd stoppen.</p>
+<h3>4. Doorloop de proef</h3>
+<p>Volg <a href="#proefspelen">Wat ga je testen?</a>. Een voorstel voor een eerste ronde is 15–20 minuten; afspraken met de onderzoeker gaan voor. Noteer problemen in <a href="#testverslag-invullen">Mijn testverslag</a>. De uitleg is ook beschikbaar als <strong>HANDLEIDING.html</strong>: dubbelklik om deze offline in je browser te openen; via Afdrukken kun je een PDF bewaren.</p>
+<p><strong>Vastgelopen?</strong> Maak een screenshot van de melding, noteer je systeem en spelversie en geef dit aan Dennis via het afgesproken contactkanaal. Je hoeft geen beveiliging uit te schakelen of computerinstellingen te veranderen om mee te doen.</p></article><article id="installatie"><h2>Installeren en starten</h2>
+<p><strong>Voor proefpersonen · spelversie 1.3.2 · 7 november 2026</strong></p>
+<h3>Vooraf</h3>
+<p>Download alleen via de door Dennis gedeelde link naar de officiële release. De pakketten zijn zelfstandige proefversies. Er is geen installatieprogramma, account of spelabonnement nodig. Een internetverbinding is nodig voor downloaden en het teruggeven van feedback; tijdens het spelen werkt de app offline. Een toetsenbord is nodig voor de horrorroute en voor vragen waarbij je typt. Het spelvenster heeft minimaal 960 × 600 beeldpunten nodig.</p>
+<h3>Windows: welk pakket heb ik nodig?</h3>
+<p>Ga naar <strong>Instellingen → Systeem → Info</strong> en bekijk <strong>Type systeem</strong>. Bij een x64-processor kies je <strong>Windows-x64</strong>; bij een ARM-processor kies je <strong>Windows-ARM64</strong>. Er is geen 32-bits versie. Controleer bij twijfel samen met Dennis. Windows 11 is de aanbevolen testomgeving; een werkende installatie op alle Windows-computers is nog niet aangetoond.</p>
+<h4>Uitpakken en openen</h4>
+<ol>
+<li>Download <code>DEADLINE-v132-Windows-x64.zip</code> of <code>DEADLINE-v132-Windows-ARM64.zip</code>.</li>
+<li>Klik met rechts op het ZIP-bestand en kies <strong>Alles uitpakken</strong>. Kies een eigen map, bijvoorbeeld Documenten/Anatomiespel-1.3.2.</li>
+<li>Open de uitgepakte map <strong>Windows-x64-v132</strong> of <strong>Windows-ARM64-v132</strong>.</li>
+<li>Dubbelklik op <strong>DEADLINE.exe</strong>. Laat de andere bestanden en mappen erbij staan.</li>
+<li>Controleer op het welkomstscherm dat <strong>1.3.2</strong> wordt vermeld.</li>
+</ol>
+<h4>Een beveiligingsmelding?</h4>
+<p>Deze proefversie heeft geen uitgevershandtekening. Windows kan daarom een onbekende uitgever of onbekende app melden. Dit is op zichzelf geen bewijs dat een bestand veilig of onveilig is. Controleer eerst de herkomst en exacte bestandsnaam. Alleen bij de gewone SmartScreen-melding <strong>Je pc wordt beschermd</strong> kun je, als je het officiële pakket vertrouwt, via <strong>Meer informatie → Toch uitvoeren</strong> toestemming geven aan deze app, als Windows die optie biedt.</p>
+<p>Bij een expliciete virus-/malwaremelding, een beheerdersblokkade, Smart App Control, S-modus of een ontbrekende knop: stop en stuur de melding aan Dennis. Schakel antivirus of andere beveiliging niet uit. Op een beheerde schoolcomputer kan toestemming van ICT nodig zijn; gebruik zo nodig een andere toegestane computer. Je hoeft voor deze proef niet uit S-modus over te stappen.</p>
+<h3>Mac: één download voor Intel en Apple Silicon</h3>
+<p>Het <strong>macOS-Universal</strong>-pakket bevat zowel Intel- als Apple-Silicon-code. Er is geen Windows-programma of Windows-emulator nodig. De export is ingesteld op macOS 12 of nieuwer. Op een echte Mac is deze release nog niet getest. Reken dus op mogelijke installatieproblemen en meld die ook als je niet aan spelen toekomt.</p>
+<h4>Uitpakken en openen</h4>
+<ol>
+<li>Download <code>DEADLINE-v132-macOS-Universal.zip</code>.</li>
+<li>Open Finder → Downloads en dubbelklik op het ZIP-bestand.</li>
+<li>Bewaar de uitgepakte app <strong>Overleven in het anatomie lokaal.app</strong> en de documentatie samen in een eigen map. Als Finder ze los uitpakt, maak daarvoor bijvoorbeeld Documenten/Anatomiespel-1.3.2 aan. Verplaats de app niet via een Windows-computer of een dienst die appbestanden verandert.</li>
+<li>Dubbelklik op de app. macOS kan de extensie <code>.app</code> verbergen.</li>
+<li>Controleer op het welkomstscherm dat <strong>1.3.2</strong> wordt vermeld. Het venster of de bestandsinformatie kan nog oudere interne versiegegevens tonen; noteer een verschil in je verslag.</li>
+</ol>
+<h4>macOS kent de ontwikkelaar niet</h4>
+<p>De proefversie is niet met een Apple Developer-certificaat ondertekend en niet door Apple genotariseerd. macOS kan de ontwikkelaar daarom niet verifiëren. Als het de gewone melding over een onbekende ontwikkelaar betreft en je de officiële download vertrouwt:</p>
+<ol>
+<li>Probeer de app één keer te openen en sluit de melding.</li>
+<li>Open <strong>Apple-menu → Systeeminstellingen → Privacy en beveiliging</strong>. Op oudere macOS-versies heet dit <strong>Systeemvoorkeuren → Beveiliging en privacy</strong>.</li>
+<li>Zoek de blokkade van deze app en kies <strong>Open toch</strong>, als die optie aanwezig is. Bevestig het openen van deze specifieke app als macOS daarom vraagt.</li>
+</ol>
+<p>Bij <strong>beschadigd</strong>, <strong>malware</strong>, <strong>zal je computer beschadigen</strong>, een ontbrekende uitzondering of een bedrijfsblokkade: stop, maak een screenshot en meld dit. Verwijder geen beveiligingskenmerken met Terminal-opdrachten en schakel Gatekeeper niet uit. De huidige ongetekende Mac-export kan op jouw systeem onbruikbaar blijken; dat is een relevante testuitkomst.</p>
+<h3>Eerste start en bediening</h3>
+<p>Gebruik een testcode of verzonnen naam en kies een leerroute. Bij <strong>Rustig oefenen → Kies je opgaven</strong> kun je antwoordvormen en onderwerpen aanvinken. Begin bijvoorbeeld met meerkeuze en spiernamen. Hints zijn toegestaan; meld of de uitleg helpt.</p>
+<p>De standaardbediening van het horrorverhaal is:</p>
+<table>
+<tr><td>Actie</td><td>Toets</td></tr>
+<tr><td>Lopen: vooruit, links, achteruit, rechts</td><td>W, A, S, D</td></tr>
+<tr><td>Uithaal naar links / rechts</td><td>J / L</td></tr>
+<tr><td>Uithaal schuin naar linksonder / rechtsonder</td><td>U / O</td></tr>
+<tr><td>Uithaal recht omlaag</td><td>I</td></tr>
+<tr><td>Trappen</td><td>Spatie</td></tr>
+<tr><td>Pauzeren</td><td>Escape of de knop Pauze</td></tr>
+<tr><td>Terug naar het keuzescherm</td><td>Het huisje / Naar Home</td></tr>
+</table>
+<p>In <strong>Instellingen → Toetsen</strong> kun je de bediening wijzigen. De toets die het spel toont is leidend. Hoog/laag wisselen is uitgeschakeld. Na de verhaalintro en toetsenborduitleg oefen je <strong>vijf slagrichtingen zonder anatomievragen</strong>. Een teller toont de voortgang. Na de training kies je <strong>Start level 1 / met anatomievragen</strong>. Pas dan volgt na een rake slag een opgave. Een BOSS vraagt meerdere treffers en komt tussendoor terug.</p>
+<h3>Voortgang, privacy en updates</h3>
+<p>Het spel bewaart spelersnamen, antwoorden, instellingen en sessies lokaal. Er is geen ingebouwde upload van spelresultaten naar de onderzoeker. De horrorroute en rustige route hebben elk een opgeslagen sessie. <strong>Naar Home</strong> bewaart je actieve voortgang. Heropen dezelfde route en kies hervatten om verder te gaan. Gebruik dezelfde spelersnaam op dezelfde computer. Je voortgang verhuist niet vanzelf mee naar een andere computer.</p>
+<p>De gegevensmap is op Windows <code>%APPDATA%\DEADLINE</code> en op Mac <code>~/Library/Application Support/DEADLINE</code>. Het profielbestand heet <code>deadline-profiles-v03.json</code>; er kunnen reservekopieën en register-notities naast staan. Je hoeft deze map voor het testen niet te openen. Deel het profielbestand alleen als Dennis dat voor het onderzoek met je heeft afgesproken; het bevat je lokaal bewaarde speelgegevens. Deel geen persoonsgegevens of profielen via openbare GitHub-issues.</p>
+<p>Bij een nieuwe versie: sluit de oude app volledig, download en pak het nieuwe pakket uit in een <strong>nieuwe map</strong>, open de app uit die map en controleer het versienummer. Opgeslagen voortgang staat buiten de spelmap; verwijder die gegevensmap niet bij een update. Compatibiliteit van voortgang tussen toekomstige versies moet per release worden gecontroleerd. Als iets niet klopt, bewaar de oude versie en neem contact op.</p>
+<h3>Problemen die je kunt melden</h3>
+<ul>
+<li><strong>Geen anatomievraag na hakken:</strong> tijdens de vijf oefenslagen is dit de bedoeling. Noteer het als er na <strong>Start level 1 / met anatomievragen</strong> nog steeds geen opgave komt.</li>
+<li><strong>Een brede uitleg bedekt de zombie:</strong> controleer dat je echt 1.3.2 hebt geopend; de training heeft hierin een compact vak links.</li>
+<li><strong>Lege oefenselectie:</strong> vink minstens één antwoordvorm én één inhoudscategorie aan. Een foutenfilter kan leeg zijn als je nog geen fouten hebt gemaakt.</li>
+<li><strong>Traag beeld of geen geluid:</strong> probeer de instellingen voor beeldkwaliteit, geluid en volume. Noteer wat je verandert en of dat helpt.</li>
+<li><strong>Vastloper of afsluiting:</strong> noteer wat je net deed, de vraagcode, je systeem en de exacte melding. Start opnieuw; probeer hervatten. Verwijder of bewerk geen profielbestand om verder te komen.</li>
+</ul>
+<h3>Officiële hulp bij systeemmeldingen</h3>
+<p>Geraadpleegd op 7 november 2026. Menuwoorden verschillen per taal en systeemversie.</p>
+<ul>
+<li><a href="https://support.apple.com/102445">Apple: apps veilig openen en onbekende ontwikkelaars</a></li>
+<li><a href="https://support.microsoft.com/en-au/windows/experience/compatibility/32-bit-and-64-bit-windows-frequently-asked-questions">Microsoft: 32-bits/64-bits en het systeemtype vinden</a></li>
+<li><a href="https://support.microsoft.com/en-us/windows/hardware/printer/help-with-installing-printers-on-arm-pcs">Microsoft: ARM herkennen bij Type systeem</a></li>
+<li><a href="https://support.microsoft.com/en-gb/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions">Microsoft: Smart App Control en niet-ondertekende apps</a></li>
+<li><a href="https://learn.microsoft.com/da-dk/windows/apps/package-and-deploy/publish-first-app">Microsoft: SmartScreen bij nieuwe apps en de eerste start</a></li>
+</ul></article><article id="proefspelen"><h2>Wat ga je testen?</h2>
+<p><strong>Eerste proefronde · spelversie 1.3.2 · voorstel van 15–20 minuten</strong></p>
+<p>Dit is een bruikbaarheidstest van het spel. Het aantal goede antwoorden is geen beoordeling van jou. Volg eventuele aanvullende afspraken met Dennis. Je mag op elk moment stoppen; de horrorroute is optioneel. Dit document vervangt geen onderzoeksinformatie of toestemmingsprocedure van je opleiding.</p>
+<p><strong>De vragen zijn nog niet gevalideerd door anatomie-experts.</strong> We nodigen anatomie-experts uit om de vragen en beelden inhoudelijk te beoordelen. Ook als speler kun je helpen: meld onduidelijke of mogelijk onjuiste vragen en vermeld steeds de <strong>vraagcode die bij iedere vraag is toegevoegd</strong>, plus de spelversie en je toelichting.</p>
+<h3>Voor je begint</h3>
+<p>Noteer je testcode, datum, besturingssysteem en spelversie in <strong>TESTVERSLAG-INVULLEN.md</strong>. Probeer de installatie eerst met de handleiding. Noteer waar je hulp nodig hebt. Als openen niet lukt, is dat ook een complete en bruikbare testuitkomst.</p>
+<h3>Proef A — welkom en rustig oefenen</h3>
+<ol>
+<li>Open het spel. Begrijp je de twee keuzes op het welkomstscherm?</li>
+<li>Kies <strong>Rustig oefenen</strong>. Zoek <strong>Kies je opgaven</strong>. Selecteer meerkeuze en Latijnse spiernamen, start en beantwoord enkele vragen.</li>
+<li>Gebruik bij een vraag een hint. Kun je zien wat de hint doet en hoe je verdergaat?</li>
+<li>Geef als test één keer bewust een fout antwoord. Controleer of eerst een andere vraag verschijnt en daarna de gemiste vraag terugkomt. Hiervoor moeten meerdere opgaven beschikbaar zijn.</li>
+<li>Ga via het huisje naar Home. Kies dezelfde route en hervat. Kom je terug waar je verwacht?</li>
+<li>Probeer ook een bewegingsanimatie en een moeilijkere antwoordvorm. Kun je zien welk lichaamsdeel beweegt en wat je moet benoemen? Noteer bij twijfel de <strong>vraagcode</strong>.</li>
+</ol>
+<h3>Proef B — horrorverhaal, alleen als je dit wilt en 18+ bent</h3>
+<ol>
+<li>Ga naar Home en kies het horrorverhaal. Bekijk de inhoudswaarschuwing en start de campagne.</li>
+<li>Doorloop de verhaalintro en probeer de toetsen bij de uitrustingscontrole.</li>
+<li>Oefen de vijf slagrichtingen. Is vóór de eerste slag duidelijk dat er nog geen anatomievragen zijn? Blijven de zombie en gevraagde richting goed zichtbaar?</li>
+<li>Start na de training level 1. Is de overgang naar het echte spel duidelijk? Beantwoord minstens één anatomievraag na een rake slag.</li>
+<li>Pauzeer en hervat. Probeer daarna Home en hervatten.</li>
+<li>Bereik je een BOSS? Noteer of je begrijpt hoeveel treffers nog nodig zijn en waarom de BOSS terugkomt. Je hoeft de campagne voor deze proef niet af te maken.</li>
+</ol>
+<h3>Afronden</h3>
+<p>Noteer je drie belangrijkste verbeterpunten en wat al goed werkt. Geef je verslag via het afgesproken contactkanaal aan Dennis. Er wordt vanuit het spel niets automatisch ingestuurd. Een screenshot van een probleem helpt; controleer of er geen echte naam, schoolgegevens of andere persoonlijke informatie op staat.</p>
+<p>Bij inhoudelijke twijfel: schrijf de vraagcode, wat je zag en wat volgens jou anders zou moeten. Voor vakinhoudelijke beoordeling kan Dennis <strong>Bronnen → Vragenregister / voor docenten</strong> gebruiken. De anatomische inhoud blijft onderwerp van beoordeling; een proefspelronde is geen onafhankelijke inhoudsvalidatie.</p></article><article id="testverslag-invullen"><h2>Mijn testverslag</h2>
+<p>Bewaar een kopie en vul die in met een tekstverwerker, mail of het afgesproken formulier. Je mag dit ook printen. Gebruik een testcode; zet geen persoonlijke gegevens in een openbaar GitHub-issue.</p>
+<p>Testcode:</p>
+<p>Datum:</p>
+<p>Spelversie op het welkomstscherm:</p>
+<p>Computer: Windows x64 / Windows ARM64 / Mac Intel / Mac Apple Silicon / anders:</p>
+<p>Versie van Windows of macOS:</p>
+<p>Downloadbestand:</p>
+<p>Geteste route: rustig / horror / beide:</p>
+<p>Ongeveer gespeelde tijd:</p>
+<h3>Installeren en starten</h3>
+<p>Kon je het juiste bestand kiezen, downloaden, uitpakken en openen?</p>
+<p>Welke melding of welk probleem kreeg je? Schrijf de exacte tekst op of voeg een screenshot toe:</p>
+<p>Had je hulp nodig? Waarbij?</p>
+<h3>Per probleem — kopieer dit blok voor elk nieuw probleem</h3>
+<p>Korte omschrijving:</p>
+<p>Vraagcode, als die zichtbaar was:</p>
+<p>Route en scherm:</p>
+<p>Wat deed je? Beschrijf de stappen:</p>
+<p>Wat verwachtte je?</p>
+<p>Wat gebeurde er echt?</p>
+<p>Gebeurt het opnieuw als je dezelfde stappen uitvoert? ja / nee / niet geprobeerd:</p>
+<p>Gevolg: onduidelijk / hinderlijk / kon niet verder / anders:</p>
+<p>Screenshot zonder persoonsgegevens (bestandsnaam):</p>
+<h3>Jouw oordeel</h3>
+<p>Geef per onderdeel een cijfer van 1 (heel onduidelijk/moeilijk) tot 5 (heel duidelijk/makkelijk), of schrijf &#x27;niet geprobeerd&#x27;.</p>
+<p>Juiste download vinden:</p>
+<p>Installeren en openen:</p>
+<p>Kiezen tussen de twee routes:</p>
+<p>Instellen welke opgaven je oefent:</p>
+<p>Bediening en verdergaan na een antwoord:</p>
+<p>Begrijpen van anatomische beelden/animaties:</p>
+<p>Uitleg bij de vijf oefenslagen:</p>
+<p>Overgang van training naar echt spel:</p>
+<p>Begrijpen dat een BOSS meerdere aanvallen heeft:</p>
+<p>Terug naar Home en hervatten:</p>
+<p>Wat werkte goed?</p>
+<p>Welke drie dingen moeten als eerste beter?</p>
+<p>Wil je iets kwijt over de anatomische inhoud? Vermeld de vraagcode:</p>
+<p>Lever dit verslag in via het met Dennis afgesproken kanaal. Het spel verstuurt dit niet automatisch.</p></article></main><footer>Werkt offline · Gebruik Afdrukken om een PDF te bewaren · Er worden vanuit deze handleiding geen gegevens verstuurd.</footer></html>

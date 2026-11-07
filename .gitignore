@@ -1,0 +1,7 @@
+*.zip
+*.exe
+*.app/
+.DS_Store
+Thumbs.db
+deadline-profiles*.json*
+vragenregister-notities.json*
