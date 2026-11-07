@@ -14,7 +14,7 @@ Experts kunnen in het spel via **Bronnen → Vragenregister / voor docenten** al
 
 ## Download en begin
 
-Open **Releases** rechts op deze pagina en kies **v1.3.2 — eerste proefronde**. Open **Assets** en download:
+Open de [downloadpagina v1.3.2 — eerste proefronde](https://github.com/dennizg/anatomiespel/releases/tag/v1.3.2). Open **Assets** en download:
 
 | Computer | Bestand |
 | --- | --- |
