@@ -1,4 +1,4 @@
-# Feedback en updates · versie 1.4.1
+# Feedback en updates · versie 1.4.2
 
 Klik op **Feedback geven** via Home → Extra's, op **Feedback over deze vraag** tijdens een vraag of antwoorduitleg, of op **Mail feedback** in het vragenregister. Kies **Open e-mailconcept**. Je eigen e-mailprogramma opent een concept aan **deemailgoedbloed@gmail.com** met onderwerp, spelversie, systeem en invulvelden. Controleer en vul de mail aan; je verstuurt hem zelf. Heb je geen ingesteld e-mailprogramma, kies dan **Kopieer mailtekst** en plak de tekst in je eigen mail.
 
@@ -12,4 +12,4 @@ Repository: https://github.com/dennizg/anatomiespel
 
 Downloads: https://github.com/dennizg/anatomiespel/releases
 
-Deze functies komen beschikbaar in nieuw gebouwde pakketten vanaf 1.4.1. Eerder gedownloade versies krijgen de knoppen en controle pas na handmatig downloaden van deze versie. De 658 vragen en hun codes zijn inhoudelijk ongewijzigd; onafhankelijke inhoudelijke validatie door experts staat nog open.
+Deze functies komen beschikbaar in nieuw gebouwde pakketten vanaf 1.4.2. Eerder gedownloade versies krijgen de knoppen en controle pas na handmatig downloaden van deze versie. De 658 vragen en hun codes zijn inhoudelijk ongewijzigd; onafhankelijke inhoudelijke validatie door experts staat nog open.

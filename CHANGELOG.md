@@ -1,5 +1,9 @@
 # Versiegeschiedenis
 
+## v1.4.2 — Enter controleert een getypt antwoord
+
+10 november 2026. Een Enter-aanslag stuurt het getypte antwoord eenmaal in en laat de antwoorduitleg staan. Gewone en numerieke Enter zijn getest voor één woord, twee woorden en volledige antwoorden. Bij lege invoer of schrijfhulp blijft het veld actief. Inhoud en voortgang blijven behouden.
+
 ## v1.4.1 — rustig beginscherm, feedback en updates
 
 10 november 2026. Windows-apps, Mac-app en downloadpakketten heten voortaan Overleven-in-het-Anatomielokaal. Deze release bundelt ook de hieronder beschreven feedback- en updatefuncties uit de lokale 1.4.0-ontwikkelversie.

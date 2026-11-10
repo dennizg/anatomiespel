@@ -1,6 +1,6 @@
 # Welkom, proefspeler!
 
-**Overleven in het anatomie lokaal · spelversie 1.4.1 · proefronde · 10 november 2026**
+**Overleven in het anatomie lokaal · spelversie 1.4.2 · proefronde · 10 november 2026**
 
 Je helpt ons de installatie, bediening, uitleg en anatomische opgaven te verbeteren. Je test het spel; dit is geen examen. Onduidelijkheid, een fout of een vastloper is juist waardevolle feedback.
 
@@ -8,13 +8,13 @@ Je helpt ons de installatie, bediening, uitleg en anatomische opgaven te verbete
 
 ## 1. Download het juiste pakket
 
-Gebruik de downloadlink van Dennis of de **Releases**-pagina van de officiële GitHub-repository. Open bij versie **v1.4.1** het onderdeel **Assets** en kies:
+Gebruik de downloadlink van Dennis of de **Releases**-pagina van de officiële GitHub-repository. Open bij versie **v1.4.2** het onderdeel **Assets** en kies:
 
 | Jouw computer | Download |
 | --- | --- |
-| Windows met Intel- of AMD-processor | `Overleven-in-het-Anatomielokaal-v141-Windows-x64.zip` |
-| Windows met ARM-processor, bijvoorbeeld Snapdragon | `Overleven-in-het-Anatomielokaal-v141-Windows-ARM64.zip` |
-| Mac met Apple-chip of Intel-processor | `Overleven-in-het-Anatomielokaal-v141-macOS-Universal.zip` |
+| Windows met Intel- of AMD-processor | `Overleven-in-het-Anatomielokaal-v142-Windows-x64.zip` |
+| Windows met ARM-processor, bijvoorbeeld Snapdragon | `Overleven-in-het-Anatomielokaal-v142-Windows-ARM64.zip` |
+| Mac met Apple-chip of Intel-processor | `Overleven-in-het-Anatomielokaal-v142-macOS-Universal.zip` |
 
 **Source code (zip)** en **Source code (tar.gz)** zijn geen speelbare downloads. Voor Linux, Chromebook, telefoon en tablet is in deze release geen spelpakket beschikbaar. Gebruik een computer met toetsenbord. Na het downloaden werkt het spel offline; Godot of andere ontwikkelsoftware installeren is niet nodig.
 
@@ -28,7 +28,7 @@ De Windows-x64-versie is lokaal gestart en bekeken. De ARM64- en Mac-pakketten z
 
 ## 3. Kies hoe je wilt oefenen
 
-Op het welkomstscherm staat versie **1.4.1**. Gebruik als spelersnaam een afgesproken testcode of verzonnen naam.
+Op het welkomstscherm staat versie **1.4.2**. Gebruik als spelersnaam een afgesproken testcode of verzonnen naam.
 
 - **Rustig oefenen:** dezelfde anatomische vragen en animaties, in rustige kleuren, zonder gevechten en horror. Via **Kies je opgaven** selecteer je onderwerpen en moeilijkheid.
 - **Speel het horrorverhaal:** een campagne met zombies, bloed, geweld en mogelijk angstaanjagende beelden en geluiden. Deze route heeft een eigen **18+ inhoudswaarschuwing**. Dit is geen officiële PEGI-classificatie. Kies deze route alleen als je 18 jaar of ouder bent en dit zelf wilt.

@@ -14,20 +14,24 @@ Experts kunnen in het spel via **Extra's → Bronnen & vragenregister → Vragen
 
 ## Download en begin
 
-Open de [downloadpagina v1.4.1 — feedback, updates en Extra's](https://github.com/dennizg/anatomiespel/releases/tag/v1.4.1). Open **Assets** en download:
+Open de [downloadpagina v1.4.2 — Enter-herstel](https://github.com/dennizg/anatomiespel/releases/tag/v1.4.2). Open **Assets** en download:
 
 | Computer | Bestand |
 | --- | --- |
-| Windows Intel / AMD | `Overleven-in-het-Anatomielokaal-v141-Windows-x64.zip` |
-| Windows ARM, bijvoorbeeld Snapdragon | `Overleven-in-het-Anatomielokaal-v141-Windows-ARM64.zip` |
-| Mac Intel / Apple Silicon | `Overleven-in-het-Anatomielokaal-v141-macOS-Universal.zip` |
-| Alleen de uitleg bekijken | `Overleven-in-het-Anatomielokaal-v141-Handleidingen.zip` |
+| Windows Intel / AMD | `Overleven-in-het-Anatomielokaal-v142-Windows-x64.zip` |
+| Windows ARM, bijvoorbeeld Snapdragon | `Overleven-in-het-Anatomielokaal-v142-Windows-ARM64.zip` |
+| Mac Intel / Apple Silicon | `Overleven-in-het-Anatomielokaal-v142-macOS-Universal.zip` |
+| Alleen de uitleg bekijken | `Overleven-in-het-Anatomielokaal-v142-Handleidingen.zip` |
 
 Pak het ZIP-bestand helemaal uit. Open op Windows **Overleven-in-het-Anatomielokaal.exe**, op Mac **Overleven-in-het-Anatomielokaal.app**. De automatische GitHub-downloads **Source code** bevatten geen speelbare app.
 
 Lees eerst [Snel beginnen](documentatie/START-HIER.md), daarna zo nodig [Installeren en starten](documentatie/INSTALLATIE.md). Geen pakket voor Linux, Chromebook, telefoon of tablet in deze release.
 
-## Nieuw in 1.4.1
+## Nieuw in 1.4.2
+
+Enter controleert nu een getypt antwoord en laat de antwoorduitleg staan. Dezelfde toetsaanslag gaat niet meer onbedoeld door naar de volgende vraag. Dit geldt voor één woord, twee woorden, volledige antwoorden en numerieke Enter. Bij lege invoer of schrijfhulp kun je in hetzelfde veld verder typen.
+
+## Sinds 1.4.1
 
 Via het tandwiel **Extra's** rechtsboven op Home vind je voortgang, instellingen, bronnen, feedback en versies. Feedback opent een e-mailconcept aan deemailgoedbloed@gmail.com; bij een vraag worden de code en variant toegevoegd. Alle feedback is welkom. De automatische versiecheck vindt ook gepubliceerde proefversies en kan worden uitgeschakeld. Zonder internet blijft het spel werken. Updates download en installeer je zelf. Zie [Feedback en updates](documentatie/FEEDBACK-EN-UPDATES.md).
 
