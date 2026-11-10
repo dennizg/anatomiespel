@@ -1,6 +1,6 @@
 # Wat ga je testen?
 
-**Eerste proefronde · spelversie 1.3.2 · voorstel van 15–20 minuten**
+**Eerste proefronde · spelversie 1.4.1 · voorstel van 15–20 minuten**
 
 Dit is een bruikbaarheidstest van het spel. Het aantal goede antwoorden is geen beoordeling van jou. Volg eventuele aanvullende afspraken met Dennis. Je mag op elk moment stoppen; de horrorroute is optioneel. Dit document vervangt geen onderzoeksinformatie of toestemmingsprocedure van je opleiding.
 

@@ -16,3 +16,7 @@ De huidige game gebruikt eigen anatomische schema's en heeft licenties en herkom
 ## Bij een probleem in een gepubliceerde versie
 
 Laat de oorspronkelijke release intact en vermeld een bekende fout bij die versie. Publiceer een herstelversie onder een nieuw nummer. Bewaar de koppeling tussen vraagcode, versie en melding. Geef bij een installatieblokkade een concreet alternatief; vraag proefpersonen niet om hun beveiliging breed uit te schakelen.
+
+## Versiemelding in de game vanaf 1.4.0
+
+De game vergelijkt de hoogste numerieke vX.Y.Z-tag onder de eerste 100 openbare releases. Ook gepubliceerde pre-releases tellen mee; drafts en versienummers met achtervoegsels tellen niet mee. Publicatie van bijvoorbeeld v1.4.1 activeert daardoor de melding bij spelers met 1.4.0 zodra zij de game met internet starten of handmatig controleren. De game opent uitsluitend de officiële releasespagina; downloaden en installeren blijven handmatig. Versies ouder dan 1.4.0 hebben deze controle nog niet.

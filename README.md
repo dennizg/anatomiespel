@@ -10,22 +10,26 @@ Dit is de downloadplek voor proefversies van het Nederlandstalige anatomiespel. 
 
 Kom je een onduidelijke of mogelijk onjuiste vraag tegen? Laat het weten via **Issues → Anatomische vraag of onduidelijke opgave**, of geef je bevinding aan Dennis via het afgesproken kanaal. Vermeld altijd de **vraagcode die bij iedere vraag in het spel staat**, plus de spelversie en wat er volgens jou onduidelijk of onjuist is. Een screenshot en een voorgestelde correctie of bron helpen bij de beoordeling. Ook spelers zonder anatomische expertise worden aangemoedigd om onduidelijkheden te melden.
 
-Experts kunnen in het spel via **Bronnen → Vragenregister / voor docenten** alle vragen en varianten bekijken en lokale beoordelingsnotities maken. Exporteer die notities als je ze wilt delen; ze worden niet automatisch verstuurd. Een melding of beoordeling wijzigt de spelinhoud pas na inhoudelijke controle en een nieuwe release. Deel via openbare issues geen spelersprofielen of persoonsgegevens.
+Experts kunnen in het spel via **Extra's → Bronnen & vragenregister → Vragenregister / voor docenten** alle vragen en varianten bekijken en lokale beoordelingsnotities maken. Exporteer die notities als je ze wilt delen; ze worden niet automatisch verstuurd. Een melding of beoordeling wijzigt de spelinhoud pas na inhoudelijke controle en een nieuwe release. Deel via openbare issues geen spelersprofielen of persoonsgegevens.
 
 ## Download en begin
 
-Open de [downloadpagina v1.3.2 — eerste proefronde](https://github.com/dennizg/anatomiespel/releases/tag/v1.3.2). Open **Assets** en download:
+Open de [downloadpagina v1.4.1 — feedback, updates en Extra's](https://github.com/dennizg/anatomiespel/releases/tag/v1.4.1). Open **Assets** en download:
 
 | Computer | Bestand |
 | --- | --- |
-| Windows Intel / AMD | `DEADLINE-v132-Windows-x64.zip` |
-| Windows ARM, bijvoorbeeld Snapdragon | `DEADLINE-v132-Windows-ARM64.zip` |
-| Mac Intel / Apple Silicon | `DEADLINE-v132-macOS-Universal.zip` |
-| Alleen de uitleg bekijken | `DEADLINE-v132-Handleidingen.zip` |
+| Windows Intel / AMD | `Overleven-in-het-Anatomielokaal-v141-Windows-x64.zip` |
+| Windows ARM, bijvoorbeeld Snapdragon | `Overleven-in-het-Anatomielokaal-v141-Windows-ARM64.zip` |
+| Mac Intel / Apple Silicon | `Overleven-in-het-Anatomielokaal-v141-macOS-Universal.zip` |
+| Alleen de uitleg bekijken | `Overleven-in-het-Anatomielokaal-v141-Handleidingen.zip` |
 
-Pak het ZIP-bestand helemaal uit. Open op Windows **DEADLINE.exe**, op Mac **Overleven in het anatomie lokaal.app**. De automatische GitHub-downloads **Source code** bevatten geen speelbare app.
+Pak het ZIP-bestand helemaal uit. Open op Windows **Overleven-in-het-Anatomielokaal.exe**, op Mac **Overleven-in-het-Anatomielokaal.app**. De automatische GitHub-downloads **Source code** bevatten geen speelbare app.
 
 Lees eerst [Snel beginnen](documentatie/START-HIER.md), daarna zo nodig [Installeren en starten](documentatie/INSTALLATIE.md). Geen pakket voor Linux, Chromebook, telefoon of tablet in deze release.
+
+## Nieuw in 1.4.1
+
+Via het tandwiel **Extra's** rechtsboven op Home vind je voortgang, instellingen, bronnen, feedback en versies. Feedback opent een e-mailconcept aan deemailgoedbloed@gmail.com; bij een vraag worden de code en variant toegevoegd. Alle feedback is welkom. De automatische versiecheck vindt ook gepubliceerde proefversies en kan worden uitgeschakeld. Zonder internet blijft het spel werken. Updates download en installeer je zelf. Zie [Feedback en updates](documentatie/FEEDBACK-EN-UPDATES.md).
 
 ## Voor proefpersonen
 

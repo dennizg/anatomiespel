@@ -1,5 +1,15 @@
 # Versiegeschiedenis
 
+## v1.4.1 — rustig beginscherm, feedback en updates
+
+10 november 2026. Windows-apps, Mac-app en downloadpakketten heten voortaan Overleven-in-het-Anatomielokaal. Deze release bundelt ook de hieronder beschreven feedback- en updatefuncties uit de lokale 1.4.0-ontwikkelversie.
+
+Een tandwiel met het label Extra's rechtsboven vervangt de rijen hulpknoppen onderaan Home. Het extra scherm bundelt voortgang, instellingen, bronnen, feedback, GitHub en updates in vier blokken. De versiecheck toont een subtiele indicator bij het tandwiel. Terug vanuit onderliggende schermen opent Extra's. Zie [release-notities](RELEASE-NOTITIES-v1.4.1.md).
+
+## v1.4.0 — feedback en updates (opgenomen in 1.4.1)
+
+10 november 2026. Feedbackmail aan deemailgoedbloed@gmail.com vanuit Home, vragen en vragenregister, met automatisch ingevulde code en variant waar beschikbaar. Kopieerbare mailtekst als alternatief. Links naar GitHub en downloads, plus een uitschakelbare achtergrondcontrole op nieuwe openbare versies en proefversies. Offline spelen blijft mogelijk; installatie van updates blijft handmatig. De 658 vragen, beelden en codes zijn inhoudelijk ongewijzigd. Zie [release-notities](RELEASE-NOTITIES-v1.4.0.md).
+
 ## v1.3.2 — eerste proefronde
 
 Spel gebouwd op 2 november 2026. Handleidingen voor proefpersonen toegevoegd op 7 november 2026; de spelcode en anatomische vragen zijn daarbij niet gewijzigd.

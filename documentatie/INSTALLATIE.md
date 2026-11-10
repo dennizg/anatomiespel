@@ -1,6 +1,6 @@
 # Installeren en starten
 
-**Voor proefpersonen · spelversie 1.3.2 · 7 november 2026**
+**Voor proefpersonen · spelversie 1.4.1 · 10 november 2026**
 
 ## Vooraf
 
@@ -12,11 +12,11 @@ Ga naar **Instellingen → Systeem → Info** en bekijk **Type systeem**. Bij ee
 
 ### Uitpakken en openen
 
-1. Download `DEADLINE-v132-Windows-x64.zip` of `DEADLINE-v132-Windows-ARM64.zip`.
-2. Klik met rechts op het ZIP-bestand en kies **Alles uitpakken**. Kies een eigen map, bijvoorbeeld Documenten/Anatomiespel-1.3.2.
-3. Open de uitgepakte map **Windows-x64-v132** of **Windows-ARM64-v132**.
-4. Dubbelklik op **DEADLINE.exe**. Laat de andere bestanden en mappen erbij staan.
-5. Controleer op het welkomstscherm dat **1.3.2** wordt vermeld.
+1. Download `Overleven-in-het-Anatomielokaal-v141-Windows-x64.zip` of `Overleven-in-het-Anatomielokaal-v141-Windows-ARM64.zip`.
+2. Klik met rechts op het ZIP-bestand en kies **Alles uitpakken**. Kies een eigen map, bijvoorbeeld Documenten/Anatomiespel-1.4.1.
+3. Open de uitgepakte map **Windows-x64-v141** of **Windows-ARM64-v141**.
+4. Dubbelklik op **Overleven-in-het-Anatomielokaal.exe**. Laat de andere bestanden en mappen erbij staan.
+5. Controleer op het welkomstscherm dat **1.4.1** wordt vermeld.
 
 ### Een beveiligingsmelding?
 
@@ -30,11 +30,11 @@ Het **macOS-Universal**-pakket bevat zowel Intel- als Apple-Silicon-code. Er is 
 
 ### Uitpakken en openen
 
-1. Download `DEADLINE-v132-macOS-Universal.zip`.
+1. Download `Overleven-in-het-Anatomielokaal-v141-macOS-Universal.zip`.
 2. Open Finder → Downloads en dubbelklik op het ZIP-bestand.
-3. Bewaar de uitgepakte app **Overleven in het anatomie lokaal.app** en de documentatie samen in een eigen map. Als Finder ze los uitpakt, maak daarvoor bijvoorbeeld Documenten/Anatomiespel-1.3.2 aan. Verplaats de app niet via een Windows-computer of een dienst die appbestanden verandert.
+3. Bewaar de uitgepakte app **Overleven-in-het-Anatomielokaal.app** en de documentatie samen in een eigen map. Als Finder ze los uitpakt, maak daarvoor bijvoorbeeld Documenten/Anatomiespel-1.4.1 aan. Verplaats de app niet via een Windows-computer of een dienst die appbestanden verandert.
 4. Dubbelklik op de app. macOS kan de extensie `.app` verbergen.
-5. Controleer op het welkomstscherm dat **1.3.2** wordt vermeld. Het venster of de bestandsinformatie kan nog oudere interne versiegegevens tonen; noteer een verschil in je verslag.
+5. Controleer op het welkomstscherm dat **1.4.1** wordt vermeld. Het venster of de bestandsinformatie kan nog oudere interne versiegegevens tonen; noteer een verschil in je verslag.
 
 ### macOS kent de ontwikkelaar niet
 
@@ -75,14 +75,14 @@ Bij een nieuwe versie: sluit de oude app volledig, download en pak het nieuwe pa
 ## Problemen die je kunt melden
 
 - **Geen anatomievraag na hakken:** tijdens de vijf oefenslagen is dit de bedoeling. Noteer het als er na **Start level 1 / met anatomievragen** nog steeds geen opgave komt.
-- **Een brede uitleg bedekt de zombie:** controleer dat je echt 1.3.2 hebt geopend; de training heeft hierin een compact vak links.
+- **Een brede uitleg bedekt de zombie:** controleer dat je echt 1.4.1 hebt geopend; de training heeft hierin een compact vak links.
 - **Lege oefenselectie:** vink minstens één antwoordvorm én één inhoudscategorie aan. Een foutenfilter kan leeg zijn als je nog geen fouten hebt gemaakt.
 - **Traag beeld of geen geluid:** probeer de instellingen voor beeldkwaliteit, geluid en volume. Noteer wat je verandert en of dat helpt.
 - **Vastloper of afsluiting:** noteer wat je net deed, de vraagcode, je systeem en de exacte melding. Start opnieuw; probeer hervatten. Verwijder of bewerk geen profielbestand om verder te komen.
 
 ## Officiële hulp bij systeemmeldingen
 
-Geraadpleegd op 7 november 2026. Menuwoorden verschillen per taal en systeemversie.
+Geraadpleegd op 10 november 2026. Menuwoorden verschillen per taal en systeemversie.
 
 - [Apple: apps veilig openen en onbekende ontwikkelaars](https://support.apple.com/102445)
 - [Microsoft: 32-bits/64-bits en het systeemtype vinden](https://support.microsoft.com/en-au/windows/experience/compatibility/32-bit-and-64-bit-windows-frequently-asked-questions)
